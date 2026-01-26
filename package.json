@@ -1,0 +1,24 @@
+{
+    "name": "nba-simple",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "ingest": "node scripts/ingest_data.js"
+    },
+    "dependencies": {
+        "next": "14.1.4",
+        "react": "^18",
+        "react-dom": "^18",
+        "d3": "^7.8.5"
+    },
+    "devDependencies": {
+        "@types/d3": "^7.4.3",
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "typescript": "^5"
+    }
+}
