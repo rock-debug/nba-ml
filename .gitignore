@@ -46,9 +46,8 @@ env/
 venv/
 ENV/
 
-# Large data files (keep source CSV but not generated JSON)
-# Uncomment if files are too large for GitHub
-# src/data/shots.json
-# src/data/season_stats.json
-# src/data/player_percentiles.json
-# src/data/player_clusters.json
+# Large data files (excluded from repository)
+data/
+src/data/*.json
+src/data/*.csv
+*.csv
